@@ -2,13 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using AppodealAds.Unity.Api;
-//using AppodealAds.Unity.Common;
+using AppodealAds.Unity.Api;
+using AppodealAds.Unity.Common;
 using System;
 
 public class AppodealManager : MonoBehaviour
 {
-    /*
+    
     private ListenerCallback listener = new ListenerCallback();
 
     private void Start()
@@ -37,9 +37,9 @@ public class AppodealManager : MonoBehaviour
 
         }
     }
-    */
+    
 }  
-/*
+
 class ListenerCallback : IInterstitialAdListener
 {
     #region Interstitial callback handlers
@@ -88,4 +88,3 @@ class ListenerCallback : IInterstitialAdListener
 
     #endregion
 }
-*/

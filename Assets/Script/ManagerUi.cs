@@ -43,7 +43,7 @@ public class ManagerUi : MonoBehaviour
         AppMetrica.Instance.ReportEvent("Restart"); //Отправка события Restart
         AppMetrica.Instance.SendEventsBuffer();//Отправить событие немедленно
         Debug.Log("Send Report Event 'Restart'");
-        //appodealManager.ShowInterstitial(); //в теории показываем рекламу
+        appodealManager.ShowInterstitial(); //в теории показываем рекламу
         if (!gameManager.saveLv) 
         {
             gameManager.managerSave.SaveLevel();
